@@ -1,0 +1,155 @@
+.about{
+
+    h3{
+        margin: 0 auto;
+        text-align: center;
+        max-width:650px;
+        color: #1d1f2e;
+        font-size: 23px;
+        font-family: 'Lucida Sans';
+
+    }
+
+    p{
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        max-width:650px;
+        color:grey;
+        line-height: 25px;
+        font-size: 16px;
+        font-family: 'Lucida Sans';
+
+    }
+
+    .about-photos{
+        min-height: 300px;
+        margin-top: 50px;
+        width: 100%;
+         display: flex;
+         align-items: center; 
+         justify-content: space-evenly;
+        img{
+            height: 350px;
+            
+
+        }
+        .photo-text{
+            width: 50%;
+            h3{
+                margin: 0 auto;
+                text-align: left;
+                max-width:650px;
+                color: #1d1f2e;
+                font-size: 23px;
+                font-family: 'Lucida Sans';
+        
+            }
+            p{
+                margin: 0 auto;
+                text-align: left;
+                max-width:650px;
+                color:grey;
+                line-height: 25px;
+                font-size: 16px;
+                font-family: 'Lucida Sans';
+        
+            }
+
+        }
+    }
+
+    .people{
+        margin: 0 auto;
+        margin-top: 25px;
+         display: flex;
+         align-items: center; 
+         justify-content: space-evenly;
+
+        .person{
+            min-height: 500px;
+            width: 300px;
+            img{
+                height: 300px;
+                width: 300px;
+
+            }
+
+            .name{
+                width: 300px;
+
+                p{
+                    margin-top: -20px ;
+                    text-transform:capitalize;
+
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .about{
+
+        h3{
+            
+    
+        }
+    
+        p{
+            
+    
+        }
+    
+        .about-photos{
+            flex-direction: column;
+           
+            img{
+                
+                
+    
+            }
+            .photo-text{
+             
+                h3{
+                   
+            
+                }
+                p{
+                    
+            
+                }
+    
+            }
+        }
+    
+        .people{
+            flex-direction: column;
+            
+           
+    
+            .person{
+            
+                
+                img{
+                   
+    
+                }
+    
+                .name{
+                  
+    
+                    p{
+                       
+    
+                    }
+                }
+            }
+        }
+    
+    }
+
+}

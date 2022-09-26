@@ -1,0 +1,155 @@
+.blog{
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 900px;
+    background-color: white;
+    padding-top: 10px;
+
+   
+    h1{
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Lucida Sans';
+        font-size: 30px;
+    }
+
+    h3{
+        margin: 0 auto;
+        text-align: center;
+        max-width:650px;
+        color: #1d1f2e;
+        font-size: 23px;
+        font-family: 'Lucida Sans';
+
+    }
+    p{
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        max-width:650px;
+        color:grey;
+        line-height: 25px;
+        font-size: 16px;
+        font-family: 'Lucida Sans';
+
+    }
+
+
+
+
+     .item{
+        width: 85%;
+        margin: 0 auto;
+         display: flex;
+         align-items: center; 
+         justify-content: space-evenly;
+         padding-top: 25px;
+         padding-bottom: 20px;
+
+        .blog-title{
+            height: 230px;
+            width: 230px;
+
+        }
+
+        .text{
+            height: 230px;
+            width: 450px;
+
+            h3{
+                margin: 0 auto;
+                text-align: left;
+                max-width:650px;
+                color: #1d1f2e;
+                font-size: 23px;
+                font-family: 'Lucida Sans';
+        
+            }
+            p{
+                margin: 0 auto;
+                text-align: left;
+                max-width:650px;
+                color:grey;
+                line-height: 25px;
+                font-size: 16px;
+                font-family: 'Lucida Sans';
+        
+            }
+
+            h6{
+                margin: 0 auto;
+                text-align: left;
+                text-transform: capitalize;
+                max-width:650px;
+                color:grey;
+                line-height: 15px;
+                font-size: 13px;
+                font-family: 'Ariel';
+            }
+
+        }
+     }
+
+
+    
+     
+
+}
+
+@media screen and (max-width: 800px){
+
+    .blog{
+        
+    
+       
+        h1{
+            
+        }
+    
+        h3{
+            
+    
+        }
+        p{
+            
+    
+        }
+    
+    
+    
+    
+         .item{
+            flex-direction: column;
+            
+    
+            .blog-title{
+               
+    
+            }
+    
+            .text{
+               
+    
+                h3{
+                    
+            
+                }
+                p{
+                    
+            
+                }
+    
+                h6{
+                }
+    
+            }
+         }
+    
+    
+        
+         
+    
+    }
+
+}

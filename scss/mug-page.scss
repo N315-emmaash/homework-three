@@ -1,0 +1,41 @@
+.mug-page{
+    min-height: 500px;
+    width: 100%;
+     display: flex;
+     align-items: center; 
+     justify-content: space-evenly;
+
+     .mug-img{
+        img{
+            height: 500px;
+
+        }
+
+        
+     }
+     .mug-info{
+        h3{
+            margin: 0 auto;
+            text-align: left;
+            max-width:650px;
+            color: #1d1f2e;
+            font-size: 30px;
+            font-family: 'Lucida Sans';
+    
+        }
+        p{
+            margin: 0 auto;
+            text-align: left;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            max-width:300px;
+            color:grey;
+            line-height: 25px;
+            font-size: 16px;
+            font-family: 'Lucida Sans';
+    
+        }
+
+        
+    }
+}

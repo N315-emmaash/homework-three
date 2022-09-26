@@ -1,0 +1,152 @@
+.header{
+    background-image: url(../images/pexels-nao-triponez-129207.jpg);
+    border-radius: 15px 50px;
+    min-height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+.text{
+
+    padding-top: 100px;
+    p, h1, h3{
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 30px;
+        max-width:900px;
+        color: white;
+        font-size: 16px;
+        font-family: 'Lucida Sans';
+
+    }
+    h1{
+        font-family: 'Ariel';
+        font-size: 70px;
+    }
+
+}
+    
+.explore-button{
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    
+     display: flex;
+     align-items: center; 
+     justify-content: space-evenly;
+
+    a{
+        
+            font-family: 'Lucida Sans';
+            color: #1d1f2e;
+            text-decoration: none;
+        
+    }
+
+    
+}
+    
+
+
+}
+
+.blog-link{
+    margin: 0 auto;
+    min-height: 300px;
+    text-align: center;
+
+    h3{
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 100px;
+        max-width:650px;
+        color: #1d1f2e;
+        font-size: 23px;
+        font-family: 'Lucida Sans';
+
+    }
+
+    p{
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        max-width:650px;
+        color:grey;
+        line-height: 25px;
+        font-size: 16px;
+        font-family: 'Lucida Sans';
+
+    }
+
+    a{
+      
+        color: #a25f4b;
+        margin: 0 auto;
+        text-align: center;
+        max-width:650px;
+        font-size: 16px;
+        font-family: 'Lucida Sans';
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .header{
+        
+    .text{
+    
+        p, h1, h3{
+           
+            max-width:300px;
+           
+    
+        }
+        h1{
+            
+        }
+    
+    }
+        
+    .explore-button{
+       
+        width: 150px;
+      
+    
+        a{
+            
+               
+            
+        }
+    
+        
+    }
+        
+    
+    
+    }
+    
+    .blog-link{
+       
+    
+        h3{
+          max-width: 300px;
+    
+        }
+    
+        p{
+            max-width: 300px;
+    
+        }
+    
+        a{
+          
+           
+        }
+    }
+
+}
